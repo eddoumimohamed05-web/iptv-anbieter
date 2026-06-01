@@ -14,6 +14,7 @@
   <meta property="og:description" content="Ihr Ratgeber für legale IPTV Anbieter, IPTV Abos und IPTV Vergleich in Deutschland." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://iptvanbiete.de/" />
+  <meta property="og:image" content="https://iptvanbiete.de/assets/iptv-dashboard.svg" />
 
   <script type="application/ld+json">
   {
@@ -60,11 +61,12 @@
 </head>
 <body>
   <header class="site-header">
-    <nav class="nav container">
-      <a class="logo" href="/">IPTV Anbieter</a>
+    <nav class="nav container" aria-label="Hauptnavigation">
+      <a class="logo" href="/">IPTV <span>Anbieter</span></a>
       <div class="nav-links">
         <a href="#vergleich">Vergleich</a>
         <a href="#vorteile">Vorteile</a>
+        <a href="#geraete">Geräte</a>
         <a href="#faq">FAQ</a>
       </div>
     </nav>
@@ -75,41 +77,68 @@
       <div class="container hero-grid">
         <div>
           <p class="eyebrow">IPTV Anbieter Deutschland 2026</p>
-          <h1>Bester IPTV Anbieter: Worauf Sie wirklich achten sollten</h1>
-          <p class="hero-text">Suchen Sie einen zuverlässigen IPTV Anbieter? Hier finden Sie einen klaren Überblick über legale IPTV Angebote, wichtige Qualitätsmerkmale, Gerätekompatibilität und Tipps für ein sicheres IPTV Abo.</p>
+          <h1>Bester IPTV Anbieter: legal, stabil und passend zu Ihren Geräten</h1>
+          <p class="hero-text">Suchen Sie einen zuverlässigen IPTV Anbieter? Dieser Ratgeber zeigt, woran Sie seriöse Angebote erkennen, welche Qualitätsmerkmale wichtig sind und wie Sie ein IPTV Abo bewusst vergleichen.</p>
           <div class="hero-actions">
             <a class="btn primary" href="#vergleich">IPTV Anbieter vergleichen</a>
-            <a class="btn secondary" href="#faq">Häufige Fragen</a>
+            <a class="btn secondary" href="#faq">Häufige Fragen lesen</a>
           </div>
         </div>
-        <div class="hero-card">
-          <h2>SEO Fokus</h2>
-          <ul>
-            <li>Keyword: IPTV Anbieter</li>
-            <li>Region: Deutschland</li>
-            <li>Intent: Vergleich & Kaufberatung</li>
-            <li>Content: legal und vertrauenswürdig</li>
-          </ul>
+        <div class="hero-visual" aria-label="IPTV Dashboard Illustration">
+          <img src="assets/iptv-dashboard.svg" width="900" height="620" alt="Modernes IPTV Dashboard auf einem Fernseher" />
+          <div class="stats-card" aria-label="Wichtige IPTV Kriterien">
+            <div><strong>Legal</strong><span>lizenzierte Inhalte</span></div>
+            <div><strong>Stabil</strong><span>zuverlässige Server</span></div>
+            <div><strong>Flexibel</strong><span>TV, Stick & Mobil</span></div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Vertrauensmerkmale">
+      <div class="container trust-grid">
+        <div class="trust-item">Transparente Preise</div>
+        <div class="trust-item">Klare Vertragsbedingungen</div>
+        <div class="trust-item">Support bei Einrichtung</div>
+        <div class="trust-item">Kompatible Apps</div>
       </div>
     </section>
 
     <section class="section" id="vorteile">
       <div class="container">
         <h2>Was macht einen guten IPTV Anbieter aus?</h2>
-        <p class="section-intro">Nicht jeder IPTV Anbieter ist gleich. Für langfristige Zufriedenheit zählen vor allem Stabilität, legale Inhalte, transparente Preise und guter Kundensupport.</p>
+        <p class="section-intro">Nicht jeder IPTV Anbieter ist gleich. Für langfristige Zufriedenheit zählen vor allem Stabilität, legale Inhalte, transparente Preise und ein erreichbarer Kundensupport.</p>
         <div class="cards">
-          <article class="card"><h3>Legale Inhalte</h3><p>Achten Sie darauf, dass der Anbieter mit lizenzierten Inhalten arbeitet und keine unrealistischen Versprechen macht.</p></article>
-          <article class="card"><h3>Stabile Verbindung</h3><p>Ein guter IPTV Anbieter nutzt zuverlässige Server, damit Streams ohne ständige Unterbrechungen laufen.</p></article>
-          <article class="card"><h3>Gerätekompatibilität</h3><p>IPTV sollte auf Smart TV, Android TV, Fire TV Stick, Smartphone, Tablet und Browser funktionieren.</p></article>
-          <article class="card"><h3>Support</h3><p>Schneller Support hilft bei Einrichtung, Login-Problemen, App-Fragen und technischen Schwierigkeiten.</p></article>
+          <article class="card"><div class="card-icon">01</div><h3>Legale Inhalte</h3><p>Achten Sie darauf, dass der Anbieter mit lizenzierten Inhalten arbeitet und keine unrealistischen Versprechen macht.</p></article>
+          <article class="card"><div class="card-icon">02</div><h3>Stabile Verbindung</h3><p>Ein guter IPTV Anbieter nutzt zuverlässige Server, damit Streams ohne ständige Unterbrechungen laufen.</p></article>
+          <article class="card"><div class="card-icon">03</div><h3>Gerätekompatibilität</h3><p>IPTV sollte auf Smart TV, Android TV, Fire TV Stick, Smartphone, Tablet und Browser funktionieren.</p></article>
+          <article class="card"><div class="card-icon">04</div><h3>Support</h3><p>Schneller Support hilft bei Einrichtung, Login-Problemen, App-Fragen und technischen Schwierigkeiten.</p></article>
         </div>
       </div>
     </section>
 
-    <section class="section alt" id="vergleich">
+    <section class="section alt" id="geraete">
+      <div class="container split">
+        <div class="image-card">
+          <img src="assets/device-compatibility.svg" width="760" height="520" loading="lazy" alt="IPTV auf Smart TV, Tablet und Smartphone" />
+        </div>
+        <div>
+          <p class="eyebrow">Einfach einrichten</p>
+          <h2>IPTV auf Smart TV, Fire TV Stick, Tablet und Smartphone</h2>
+          <p class="section-intro">Ein guter Anbieter erklärt verständlich, welche Apps unterstützt werden und welche Internetgeschwindigkeit für HD oder 4K sinnvoll ist.</p>
+          <div class="feature-list">
+            <div class="feature"><span class="check">✓</span><div><strong>Smart-TV-ready</strong><span> Klare Anleitung für Samsung, LG, Android TV und andere gängige Systeme.</span></div></div>
+            <div class="feature"><span class="check">✓</span><div><strong>Mobil nutzbar</strong><span> Streams sollten auch auf Smartphone, Tablet und Browser stabil laufen.</span></div></div>
+            <div class="feature"><span class="check">✓</span><div><strong>Realistische Qualität</strong><span> HD und 4K funktionieren nur mit passender Leitung, Serverqualität und kompatibler App.</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="vergleich">
       <div class="container">
         <h2>IPTV Anbieter Vergleich: Die wichtigsten Kriterien</h2>
+        <p class="section-intro">Nutzen Sie diese Übersicht als Checkliste, bevor Sie ein IPTV Abo kaufen oder einen Test starten.</p>
         <div class="table-wrap">
           <table>
             <thead><tr><th>Kriterium</th><th>Warum es wichtig ist</th></tr></thead>
@@ -125,11 +154,31 @@
       </div>
     </section>
 
+    <section class="section alt">
+      <div class="container split reverse">
+        <div>
+          <p class="eyebrow">Sicher entscheiden</p>
+          <h2>IPTV Abo kaufen: erst prüfen, dann bestellen</h2>
+          <p class="section-intro">Bevor Sie ein IPTV Abo kaufen, sollten Sie prüfen, ob der Anbieter seriös wirkt. Eine professionelle Website, verständliche Informationen, sichere Zahlungsmöglichkeiten und realistische Leistungsbeschreibungen sind wichtige Signale.</p>
+          <div class="feature-list">
+            <div class="feature"><span class="check">✓</span><div><strong>Keine unrealistischen Versprechen</strong><span> Vermeiden Sie Angebote, die extrem viele Premium-Inhalte zu auffällig niedrigen Preisen bewerben.</span></div></div>
+            <div class="feature"><span class="check">✓</span><div><strong>Klare Laufzeiten</strong><span> Ein vertrauenswürdiger IPTV Anbieter informiert über Kündigung, Support und technische Anforderungen.</span></div></div>
+          </div>
+        </div>
+        <div class="image-card">
+          <img src="assets/security-check.svg" width="760" height="520" loading="lazy" alt="Schutzschild mit Checkliste für sichere IPTV Auswahl" />
+        </div>
+      </div>
+    </section>
+
     <section class="section">
-      <div class="container content-block">
-        <h2>IPTV Abo kaufen: Sicher und bewusst entscheiden</h2>
-        <p>Bevor Sie ein IPTV Abo kaufen, sollten Sie prüfen, ob der Anbieter seriös wirkt. Eine professionelle Website, verständliche Informationen, sichere Zahlungsmöglichkeiten und realistische Leistungsbeschreibungen sind wichtige Signale. Vermeiden Sie Angebote, die extrem viele Premium-Inhalte zu unrealistisch niedrigen Preisen versprechen.</p>
-        <p>Ein vertrauenswürdiger IPTV Anbieter informiert klar über Laufzeiten, Kündigung, Support und technische Anforderungen. Für Nutzer in Deutschland ist besonders wichtig, dass die angebotenen Inhalte legal bereitgestellt werden.</p>
+      <div class="container">
+        <h2>In 3 Schritten zum passenden IPTV Anbieter</h2>
+        <div class="steps">
+          <article class="step"><div class="step-number">1</div><h3>Bedarf klären</h3><p>Überlegen Sie, auf welchen Geräten Sie schauen und welche Bildqualität Sie wirklich benötigen.</p></article>
+          <article class="step"><div class="step-number">2</div><h3>Anbieter prüfen</h3><p>Vergleichen Sie Legalität, Preise, Laufzeiten, App-Kompatibilität und Support-Angebote.</p></article>
+          <article class="step"><div class="step-number">3</div><h3>Testen & bewerten</h3><p>Nutzen Sie nach Möglichkeit einen seriösen Test, um Stabilität und Bedienung im Alltag zu prüfen.</p></article>
+        </div>
       </div>
     </section>
 
@@ -146,9 +195,11 @@
     </section>
 
     <section class="cta">
-      <div class="container">
-        <h2>Finden Sie den passenden IPTV Anbieter</h2>
-        <p>Vergleichen Sie Angebote nach Stabilität, Legalität, Preis, Support und Gerätekompatibilität.</p>
+      <div class="container cta-box">
+        <div>
+          <h2>Finden Sie den passenden IPTV Anbieter</h2>
+          <p>Vergleichen Sie Angebote nach Stabilität, Legalität, Preis, Support und Gerätekompatibilität.</p>
+        </div>
         <a class="btn primary" href="#vergleich">Jetzt Kriterien prüfen</a>
       </div>
     </section>

@@ -1,0 +1,16 @@
+<svg width="760" height="520" viewBox="0 0 760 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sichere IPTV Auswahl</title>
+  <desc id="desc">Illustration eines Schutzschilds mit Checkliste für legale und transparente IPTV Anbieter.</desc>
+  <rect width="760" height="520" rx="36" fill="#F0FDF4"/>
+  <circle cx="620" cy="112" r="80" fill="#BBF7D0" opacity="0.75"/>
+  <circle cx="122" cy="408" r="88" fill="#DBEAFE" opacity="0.8"/>
+  <path d="M380 70L550 138V252C550 358 481 429 380 462C279 429 210 358 210 252V138L380 70Z" fill="#16A34A"/>
+  <path d="M380 116L506 167V254C506 334 456 389 380 417C304 389 254 334 254 254V167L380 116Z" fill="white" opacity="0.94"/>
+  <path d="M337 263L368 294L430 216" stroke="#16A34A" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="92" y="122" width="190" height="46" rx="23" fill="white"/>
+  <circle cx="122" cy="145" r="11" fill="#22C55E"/>
+  <rect x="146" y="137" width="96" height="16" rx="8" fill="#94A3B8"/>
+  <rect x="478" y="344" width="190" height="46" rx="23" fill="white"/>
+  <circle cx="508" cy="367" r="11" fill="#2563EB"/>
+  <rect x="532" y="359" width="96" height="16" rx="8" fill="#94A3B8"/>
+</svg>
